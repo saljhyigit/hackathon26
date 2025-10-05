@@ -5,7 +5,7 @@ test: ../test/images
 nc: 3
 names: ['aluminum', 'paper', 'plastic']
 
-device: mps
+device: CUDA
 batch: 32
 workers: 4
 
