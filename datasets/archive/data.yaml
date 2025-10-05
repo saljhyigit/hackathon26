@@ -1,0 +1,17 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['aluminum', 'paper', 'plastic']
+
+device: mps
+batch: 32
+workers: 4
+
+roboflow:
+  workspace: team-osama
+  project: waste-detection-system-ddwmf
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/team-osama/waste-detection-system-ddwmf/dataset/11
